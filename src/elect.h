@@ -82,6 +82,7 @@ extern "C" {
 #define ELECT_LEADER_TIMEOUT_EVENT      (0x0819)
 #define ELECT_NODES_EVENT               (0x0820)
 #define ELECT_SENSOR_EVENT              (0x0821)
+#define ELECT_NEW_SENSOR_VALUE_EVENT    (0x0822) //new event to start GET for client sensor values
 
 /** @} */
 
